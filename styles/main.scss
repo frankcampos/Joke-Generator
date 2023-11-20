@@ -8,3 +8,10 @@ body {
   text-align: center;
   margin-top: 100px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This makes sure that the container takes at least the full viewport height */
+}
